@@ -1,0 +1,274 @@
+*{
+    margin:0;
+  
+    
+}
+
+.navbar
+{
+    width: 100%;
+    height:10%;
+    background-color: black;
+    
+}
+
+.navcontains{
+    display: flex;             /*give the element iin the one line*/
+    align-items: center;
+    padding :0 50px;
+    height: 100%;
+    color: aliceblue;
+    
+}
+
+.logocontains
+{
+    flex:4;
+   
+}
+
+.logo{
+    font-size: 40px;
+    color: blue;
+}
+
+
+.menu{
+    flex: 6;
+
+    
+}
+.menulistitem:hover
+{
+    background-color: black;
+    color: #151515;
+    cursor: pointer;
+  
+}
+.menulist
+{
+    display: flex;
+    list-style: none;           /*remove the dot in the list*/
+   
+}
+.menulistitem
+{
+    margin: 30px;      
+    font-weight: bolder;        /* give the bold to the font*/
+}
+
+
+.profile{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    
+}
+.pictureprofile
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    object-fit: cover;         /*it was covering the middle or center part*/
+}
+.span{
+    margin: 0 20px;        /*here 0 is bottom and 20 is left and right*/
+}
+
+.sidebar
+{
+    width: 50px;
+    height:100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    
+     
+    align-items: center;
+    font-size: 10px;
+    
+}
+.side{
+    color: aliceblue;
+    margin-top: 20px;
+    list-style: none; 
+    padding-right: 34px;
+    
+}
+
+.sideli:hover{
+    background-color:black;
+    color: #151515;
+    cursor: pointer;
+}
+.sideli
+{
+    padding-top: 100px;
+}
+.back
+{
+    background-color: #151515;
+    min-height: 200vh;
+    color: white;
+}
+
+.content-back
+{
+    margin-left: 50px;
+}
+
+.feature-content
+{
+    height: 50vh;
+    padding: 50px;
+}
+
+.title{
+    color: purple;
+    font-size: 50px;
+}
+.para{
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin:30px 0;
+}
+
+    
+.watchbutton
+{
+    
+    border-radius: 10px;
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 20px;
+    
+}
+
+.movie
+{
+    padding-left: 50px;
+}
+
+.wrapper
+{
+    
+}
+
+.movietitle
+{
+    padding-bottom: 40px;
+}
+.movielist
+{
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.movielistitem
+{
+    margin-right: 30px;
+    position: relative;
+}
+
+.images:hover
+
+{
+   transform: scale(1.2);
+   margin: 0 30px;
+   opacity: 0.7;
+}
+
+.movieitem:hover{
+    opacity: 1;
+}
+
+.movielistpara:hover{
+    opacity: 1;
+}
+.movielistbutton:hover{
+    opacity: 1;
+}
+
+.images
+{
+    width: 270px;
+    height: 200px;
+    object-fit: cover;  
+    transition: all 1s ease-in-out;      /* center the photo*/
+}
+
+.movieitem{
+    background-color: #333;
+    padding: 0 10px;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-out;
+}
+
+.movielistpara
+{
+    background-color: #333;
+    padding:  10px;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    width: 200px;
+    opacity: 0;
+    transition: 1s all ease-out;
+}
+
+.movielistbutton
+{
+    padding: 10px;
+    background-color: yellow;
+    color: maroon;
+    border-radius:30px ;
+    position: absolute;
+    bottom: 20px;
+    border: none;
+    outline: none;
+    left: 50px;
+    
+}
+
+
+.last{
+    padding-left: 50px;
+    background-color:black;
+
+}
+
+.lpara
+{
+    color: #333;  
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    border-color: #333;
+    text-align: center; 
+}
+#one{
+color: white;
+margin-top: 30px;
+background-color: #333;
+
+}
+
+
+.signbutton:hover
+{
+    border-radius: 10px;
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 20px;
+}
